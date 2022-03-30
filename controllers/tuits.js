@@ -26,7 +26,7 @@ export default [
     "postedBy": {
       "username": "New York Post",
       "handle": "nypost",
-      "profileImgSrc": "https://scontent.fphl1-2.fna.fbcdn.net/v/t1.18169-9/12932928_10157483552025206_1176575955706691041_n.png?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Tbf9t4CfWUAAX8lAEve&_nc_ht=scontent.fphl1-2.fna&oh=00_AT-unvWdu0iAKgYifIMlopKQ31jaVGTLiyyk_IF0jbsLqw&oe=6235ADE1"
+      "profileImgSrc": "https://theme.zdassets.com/theme_assets/968999/d8a347b41db1ddee634e2d67d08798c102ef09ac.jpg"
     },
     "timeStamp": "23h",
     "content": "Grimes seen reading Karl Marx following split with world\"s richest man Elon Musk",
