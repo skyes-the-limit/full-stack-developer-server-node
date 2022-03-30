@@ -2,9 +2,22 @@ import posts from "./tuits.js";
 let tuits = posts;
 
 const createTuit = (req, res) => {
-  const newTuit = req.body;
-  newTuit._id = (new Date()).getTime() + '';
-  newTuit.likes = 0;
+  const newTuit = {
+    ...req.body,
+    _id: (new Date()).getTime() + '',
+    postedBy: {
+      username: "ReactJS",
+      handle: 'react-js',
+      profileImgSrc: 'https://reactjs.org/logo-og.png'
+    },
+    stats: {
+      retuits: 0,
+      likes: 0,
+      replies: 0
+    },
+    liked: false,
+    timeStamp: "just now"
+  }
   tuits.push(newTuit);
   res.json(newTuit);
 }
